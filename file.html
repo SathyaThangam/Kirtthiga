@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./src/main-icon.png">
+    <title>siteInspire - Web Design Inspiration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $(".liststyle").hover(function(){
+    $(this).css("color", "red");
+    }, function(){
+    $(this).css("color", "#464E54");
+  });
+});
+    </script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+<div class="header_wrapper">
+    <header>
+    <div class="logo">
+    <a href="#"></a>
+    </div>
+    <nav id="primary" class="has-filters">
+    <ul class="sections">
+    <li class="active websites">
+    <a href="#"><span>Websites</span></a>
+    </li>
+    <li class=" directory">
+    <a href="#"><span>Directory</span></a>
+    </li>
+    <li class=" about">
+    <a href="#"><span>About</span></a>
+    </li>
+    </ul>
+    <ul class="websites filters">
+    <li class="filter websites">
+    <ul>
+    <li class="styles">
+    <a href="#" class="">Styles <span></span></a>
+    </li>
+    <li class="types">
+    <a href="#" class="">Types <span></span></a>
+    </li>
+    <li class="subjects">
+    <a href="#" class="">Subjects <span></span></a>
+    </li>
+    <li class="platforms">
+    <a href="#">Platforms <span></span></a>
+    </li>
+    <li class="search">
+    <a href="#">Search <span></span></a>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </nav>
+
+    <div class="tools">
+    <div class="account">
+    <div class="dropdown toggle">
+    <a href="" class="dropbtn user">
+    <span id="icon-change" onmouseover="imgChng()" onmouseout="normImg()" class="user-icon">
+    <img id="changing" class="user-img" src="src/user.png"/>
+    </span>
+    </a>
+    <span class="pointer"></span>
+    <ul class="dropdown_content signed_out">
+    <li><a class="drop"  id="clr" href="" onmousemove="colorchange(1)" onmouseout="colorchange(2)">Sign in</a></li>
+    <li><a class="drop" id="clr2" href="" onmousemove="colorchange(3)" onmouseout="colorchange(4)">Sign up</a></li>
+    </ul>
+    </div>
+    </div>
+    </div>
+
+    </header>
+    </div>
+    <div></div>
+
+    <div id="slideshow_wrapper" class="active">
+            <h1 class="centered">Latest from the Showcase</h1>
+            <section id="slideshow">
+            <div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 1284px; height: 400px; margin: 0px; overflow: hidden;">
+            <ul class="slides" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 319px; margin: 0px; width: 9048px; height: 400px; z-index: auto;"> 
+            
+            <li class="thumbnail fade" style="margin-right: 318px;">
+            <a href="#">
+            <img src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/786/medium.jpg" alt="Medium" width="647" height="400">
+            <span>Meatable →</span>
+            </a></li>
+            
+            <li class="thumbnail fade" style="margin-right: 0px;">
+            <a href="#">
+            <img src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/788/medium.jpg" alt="Medium" width="647" height="400">
+            <span>Jordan Gilroy →</span>
+            </a> </li>
+            
+            <li class="thumbnail fade" style="margin-right: 0px;">
+            <a href="#">
+            <img src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/777/medium.jpg" alt="Medium" width="647" height="400">
+            <span>Superficial →</span>
+            </a> </li>
+            
+            <li class="thumbnail fade" style="margin-right: 0px;">
+            <a href="#">
+            <img src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/791/medium.jpg" alt="Medium" width="647" height="400">
+            <span>Büro →</span>
+            </a> </li>
+            
+            <li class="thumbnail fade" style="margin-right: 0px;">
+            <a href="#">
+            <img src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/790/medium.jpg" alt="Medium" width="647" height="400">
+            <span>Studio Willen →</span>
+            </a> </li>
+            
+            <li class="thumbnail fade" style="margin-right: 319px;">
+            <a href="#">
+            <img src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/783/medium.jpg" alt="Medium" width="647" height="400">
+            <span>B-Metal →</span>
+            </a> </li>
+            </ul>
+            </div>
+            <div class="pager">
+            <span class="dot">•</span>
+            <span class="dot">•</span>
+            <span class="dot">•</span>
+            <span class="dot">•</span>
+            <span class="dot">•</span>
+            <span class="dot">•</span>
+            </div>
+            <div class="controls">
+            <a href="#" class="nav next" ><span class="span-next"><i class='fas fa-caret-right' ></i></span></a>
+            <a href="#" class="nav prev" ><span class="span-previous"><i class='fas fa-caret-left' ></i></span></a>
+            </div>
+            </section>
+            </div>
+<div class="grid-div"><br><br>
+<section id="grid" class="row root">
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image show" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/791/small.jpg" alt="Small" />
+        </a>
+            <div class="overlay">
+                 <span class="span-redirect">
+                     <i id="overlay-icon" class='fas fa-share'></i>
+                 </span>
+            </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Büro</a>
+        </div>
+        <div class="sub">
+        2 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/790/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+        </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Studio Willen</a>
+        </div>
+        <div class="sub">
+        2 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a target="_blank" class="main" rel="noopener" href="">
+        <img class="grid-image" src="https://d1z5poly3sl5ye.cloudfront.net/assets/Q1-siteinspire-honey-600x372-a7c2a937e166f81b978d6c7baec3fb576d21decec6816dd39452b06aa6171ec9.png" alt="Q1 siteinspire honey 600x372" class="show">
+        </a> 
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a target="_blank" rel="noopener" href="">
+        Supported by
+        Squarespace
+        </a> </div>
+        </div>
+        <img class="grid-image" src="https://ad.doubleclick.net/ddm/trackimp/N718679.3066637SITEINSPIRE/B22132105.243884384;dc_trk_aid=440737805;dc_trk_cid=114455679;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?" border="0" height="1" width="1">
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/783/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">B-Metal</a>
+        </div>
+        <div class="sub">
+        3 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/786/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Meatable</a>
+        </div>
+        <div class="sub">
+        4 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/788/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Jordan Gilroy</a>
+        </div>
+        <div class="sub">
+        4 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/777/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Superficial</a>
+        </div>
+        <div class="sub">
+        4 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/789/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="/websites/9226-plink">Plink</a>
+        </div>
+        <div class="sub">
+        4 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/782/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Config</a>
+        </div>
+        <div class="sub">
+        4 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/785/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">SQSP Creative Dept.</a>
+        </div>
+        <div class="sub">
+        4 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="thumb column">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/778/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Lyst —&nbsp;The Year in Fashion&nbsp;2019</a>
+        </div>
+        <div class="sub">
+        6 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/781/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">696 NYC</a>
+        </div>
+        <div class="sub">
+        6 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/683/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="/websites/9060-hammeralbrecht">HammerAlbrecht</a>
+        </div>
+        <div class="sub">
+        9 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/685/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">L&amp;L</a>
+        </div>
+        <div class="sub">
+        9 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/575/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">DIA</a>
+        </div>
+        <div class="sub">
+        9 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/686/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Dvein</a>
+        </div>
+        <div class="sub">
+        9 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/725/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Players Paris</a>
+        </div>
+        <div class="sub">
+        9 days ago
+        </div>
+        </div>
+        </div>
+
+        <div class="column thumb">
+        <div class="wrapp">
+        <div class="image">
+        <a class="main" href="">
+        <img class="grid-image" src="https://d27yqot8savz5t.cloudfront.net/screengrabs/images/000/012/697/small.jpg" alt="Small" class="show">
+        </a>
+        <div class="overlay">
+                <span class="span-redirect">
+                    <i id="overlay-icon" class='fas fa-share'></i>
+                </span>
+           </div>
+        </div>
+        </div>
+        <div class="caption">
+        <div class="title">
+        <a href="">Re:store</a>
+        </div>
+        <div class="sub">
+        9 days ago
+        </div>
+        </div>
+        </div>        
+</section>
+</div>
+    <footer>
+        <section id="footer">
+        <div class="first">
+        <h4>About</h4>
+        <a href="/">siteInspire</a> is a showcase of the finest web and interactive design.
+        </div>
+        <div class="latest">
+        <h4 class="header-four">Latest Websites</h4>
+        
+        <li ><a class="liststyle" href="#">Büro</a></li>
+        <li ><a class="liststyle" href="#">Studio Willen</a></li>
+        <li ><a class="liststyle" href="#">B-Metal</a></div>
+        
+
+        </div>
+        <div class="links">
+        <h4 class="header-four">Information</h4>
+        
+        <li><a class="liststyle" href="#" target="_blank">Mailing List</a></li>
+        <li ><a class="liststyle" href="#">Advertise</a></li>
+        <li><a class="liststyle" href="#">Privacy</a></li>
+        
+        </div>
+        <div class="social">
+        <h4 class="header-four">Connect with Us</h4>
+        <ul>
+        <li><a class="twitter" href="" target="_blank"><span><i class="i fab fa-twitter"></i></span></a></li>
+        <li><a class="facebook" href="" target="_blank"><span><i class="i fab fa-facebook-f"></i></span></a></li>
+        <li><a class="tumblr" href="" target="_blank"><span><i class="i fab fa-tumblr"></i></span></a></li>
+        <li><a class="rss" href="" target="_blank"><span><i class="i fa fa-rss"></i></span></a></li>
+        <li><a class="email" href="" target="_blank"><span><i class="i fa fa-envelope"></i></span></a></li>
+        </ul>
+        </div>
+        <div class="copyright">
+        Copyright © 2019 <a href="" target="_blank">Howells—Studio</a> All screenshots © of their respective owners.
+        </div>
+        </section>
+    </footer>
+<script type="text/javascript" src="file.js"></script>
+</body>
+</html>
